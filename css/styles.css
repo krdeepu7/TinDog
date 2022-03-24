@@ -1,0 +1,141 @@
+/* HTML INDEX */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-font{
+    font-size: 3em;
+    line-height: 1.5;
+}
+.header-style{
+    padding: 20%;
+}
+/* Navigation bar */
+.container-fluid{
+    padding: 7% 15%;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 20em;
+    font-weight: bold;
+    padding: 10%;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Image */
+p{
+    color: grey;
+    
+}
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;    
+}
+/* feature section */
+.feature-box{
+    text-align: center;
+    padding: 5% ;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#feature{
+    padding: 20% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+/* testimonial */
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3em;
+    line-height: 1.5;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+/* PRICING Area */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 5% 2%;
+}
+.pricing-text{
+    font-size: 3em;
+    line-height: 1.5;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+    }
+}
+
+/* FOOTER */
+.footer-text{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 6% 0%;
+}
+#footer{
+    background-color: #fff;
+    padding: 3% 0%;
+    text-align: center;
+}
+
